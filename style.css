@@ -1,0 +1,55 @@
+body{
+    font-family: 'Nunito', sans-serif
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.diet-area{
+    display: flex;
+    margin-bottom: 100px;
+}
+.orange-color{
+    color: orange;
+}
+h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+h2{
+    font-size: 50px;
+    color: #707070;
+}
+
+p{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 55px;
+    display: block;
+    line-height: 1.6;
+}
+.contact-button{
+    text-decoration: none;
+    padding: 20px 40px;
+    background: linear-gradient(lightsalmon,tomato);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 30px;
+    box-shadow: 5px 7px 40px #FEE8D9;
+}
+.about-me{
+    width: 50%;
+  padding: 0 8%;
+}
+.about-me img{
+    width: 50%;
+}
+.about-area{
+    display: flex;
+    background-image: url(images/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 70px;
+}
