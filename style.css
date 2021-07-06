@@ -1,13 +1,29 @@
 body{
-    font-family: 'Nunito', sans-serif
-}
+    font-family: 'Nunito', sans-serif}
+
 /*header*/
-
-font-family: {
-    'Lato',
-    sans-serif;
+.header-area{
+    height: 120px;
 }
-
+.top-bar{
+    display: flex;
+    padding: 0 5%;
+}
+.header-btn {
+    float: right;
+    margin-top: 26px;
+    padding-left: 30%;
+    margin-left: 50%;
+}
+.header-btn .btn {
+	background-image: linear-gradient(lightsalmon,tomato);
+	padding: 19px 51px 17px;
+	border-radius: 30px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 19px;
+	font-weight: 700;
+}
 .half-width{
     width: 50%;
     padding-left: 5%;
@@ -37,6 +53,7 @@ p{
     display: block;
     line-height: 1.6;
 }
+/* about-area */
 .contact-button{
     text-decoration: none;
     padding: 20px 40px;
@@ -66,6 +83,7 @@ p{
     background-position: center;
     padding-top: 70px;
 }
+/* recipies-area */
 .recipies-area{
     margin-top: 100px;
     margin-bottom:  250px;
@@ -93,6 +111,37 @@ p{
     width: 100%;
     border-radius: 20px;
 }
+ /* chef-area */
+ .chef-area{
+    margin-top: 100px;
+    margin-bottom:  100px;
+}
+
+.chef-protfollio{
+    display: flex;
+    margin: 0 5%;
+}
+.recipies-wrapper{
+    padding: 0 2%;
+    height: 600px;
+    width: 30%;
+   
+}
+.chef-container{
+    box-shadow: 5px 7px 40px #F3F3F3;
+    padding:10px 20px ;
+    border-radius: 20px;
+    margin-left: 13px;
+}
+.chef-container img{
+    width: 439px;
+    border-radius: 20px;
+    height: 408px;
+}
+.chef-text{
+    text-align: center;
+}
+ /*counter-area */
 .counter-area{
     padding-bottom: 100px;
     text-align: center;
@@ -110,6 +159,7 @@ p{
 .footer-area h2{
     font-size: 40px;
 }
+/* footer-area */
 .footer-area{
     background:#0B0D17 ;
     padding-top: 30px;
