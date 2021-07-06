@@ -1,6 +1,13 @@
 body{
     font-family: 'Nunito', sans-serif
 }
+/*header*/
+
+font-family: {
+    'Lato',
+    sans-serif;
+}
+
 .half-width{
     width: 50%;
     padding-left: 5%;
@@ -20,7 +27,9 @@ h2{
     font-size: 50px;
     color: #707070;
 }
-
+h3{
+    font-size: 25px;
+}
 p{
     font-size: 20px;
     color: gray;
@@ -40,10 +49,14 @@ p{
 }
 .about-me{
     width: 50%;
-  padding: 0 8%;
+}
+.about-content{
+    padding: 0 20%;
+    text-align: justify;
 }
 .about-me img{
-    width: 50%;
+   height: 635px;
+   margin-left: -180px;
 }
 .about-area{
     display: flex;
@@ -52,4 +65,56 @@ p{
     background-size: cover;
     background-position: center;
     padding-top: 70px;
+}
+.recipies-area{
+    margin-top: 100px;
+    margin-bottom:  250px;
+}
+.recipies-title{
+    padding: 0 25%;
+    text-align: center;
+}
+.recipies-box{
+    display: flex;
+    margin: 0 5%;
+}
+.recipies-wrapper{
+    padding: 0 2%;
+    height: 600px;
+    width: 30%;
+   
+}
+.recipies-container{
+    box-shadow: 5px 7px 40px #F3F3F3;
+    padding:10px 20px ;
+    border-radius: 20px;
+}
+.recipies-container img{
+    width: 100%;
+    border-radius: 20px;
+}
+.counter-area{
+    padding-bottom: 100px;
+    text-align: center;
+}
+.counter-wrapper{
+    display: flex;
+    box-shadow: 5px 7px 40px #F3F3F3;
+    padding-bottom: 60px ;
+    border-radius: 25px;
+    margin: 0 7%;
+}
+.counter-text{
+    padding: 0 10%;
+}
+.footer-area h2{
+    font-size: 40px;
+}
+.footer-area{
+    background:#0B0D17 ;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+.footer-area p{
+   color: #fff;;
 }
