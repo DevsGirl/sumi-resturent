@@ -7,13 +7,13 @@ body{
 }
 .top-bar{
     display: flex;
-    padding: 0 5%;
+    padding: 0 7%;
 }
 .header-btn {
     float: right;
     margin-top: 26px;
     padding-left: 30%;
-    margin-left: 50%;
+    margin-left: 40%;
 }
 .header-btn .btn {
 	background-image: linear-gradient(lightsalmon,tomato);
@@ -26,7 +26,7 @@ body{
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 7%;
 }
 .diet-area{
     display: flex;
@@ -131,10 +131,10 @@ p{
     box-shadow: 5px 7px 40px #F3F3F3;
     padding:10px 20px ;
     border-radius: 20px;
-    margin-left: 13px;
+    
 }
 .chef-container img{
-    width: 439px;
+    width: 350px;
     border-radius: 20px;
     height: 408px;
 }
